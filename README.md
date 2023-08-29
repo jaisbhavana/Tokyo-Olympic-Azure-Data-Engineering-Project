@@ -1,5 +1,7 @@
 # Tokyo-Olympic-Azure-Data-Engineering-Project
 
+![logo](https://github.com/jaisbhavana/Tokyo-Olympic-Azure-Data-Engineering-Project/blob/main/Doc1.pdf)
+
 Project Description: Olympic Data Analysis with Azure Technologies
 1. Introduction:
 Welcome to my GitHub repository! I'm Bhavana Jaiswal, a passionate data engineering enthusiast with a background in Economics. In this repository, I'll be sharing my journey as I explore the fascinating world of data engineering, leveraging the capabilities of Azure's cutting-edge technologies. From data collection and preparation to advanced analytics, join me as I uncover insights from Olympic data using powerful tools and techniques.
