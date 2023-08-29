@@ -1,39 +1,43 @@
 # Tokyo-Olympic-Azure-Data-Engineering-Project
 
 Project Description: Olympic Data Analysis with Azure Technologies
-
-In this project, we embark on a comprehensive analysis of Olympic data using an array of cutting-edge tools and technologies provided by Microsoft Azure. Our goal is to uncover valuable insights and trends from historical Olympic data, which can offer strategic information to sports organizations, athletes, and enthusiasts.
-
-
-
-
-![](C:\Users\KIRTI JAISWAL\OneDrive\Desktop\ScreenShorts\Screenshots.docx)
-
- (https://1drv.ms/p/s!AmnaZb1Lcxr4jybb9vAiFfbqolcY?e=8KMLHB)
-
-
-
-
-
-
-
-
-
-
 1. Introduction:
 Welcome to my GitHub repository! I'm Bhavana Jaiswal, a passionate data engineering enthusiast with a background in Economics. In this repository, I'll be sharing my journey as I explore the fascinating world of data engineering, leveraging the capabilities of Azure's cutting-edge technologies. From data collection and preparation to advanced analytics, join me as I uncover insights from Olympic data using powerful tools and techniques.
+ 
 
-2. Data Collection and Preparation:
-In this phase, I'll dive into the process of collecting and preparing Olympic data from various sources. We'll explore techniques to cleanse, transform, and enrich the data, ensuring its accuracy and usability for further analysis.
+Step 1: Data Collection from Kaggle and GitHub
+Download Olympic data from Kaggle.
+Upload the downloaded data into your GitHub repository.
 
-3. Data Storage and Management:
-Efficient data storage and management are crucial for a successful data engineering project. I'll walk you through how we leverage the capabilities of Azure Data Lake Storage Gen 2 to securely store both raw and processed Olympic data. This scalable data lake solution ensures seamless access to structured and unstructured data while maintaining high levels of security.
+Step 2: Creating Azure Data Factory (ADF)
+Create an Azure Data Factory instance.
+Define a pipeline within ADF for data movement and transformation.
+Set up linked services to connect ADF with your GitHub repository.
 
-4. Data Exploration and Analysis with Azure Databricks:
-With the foundation laid, it's time to dive into data exploration and analysis. Azure Databricks, an Apache Spark-based platform, empowers us to perform advanced analytics on our Olympic dataset. We'll unravel insights, patterns, and trends through interactive data exploration, driving data-driven decision-making.
+Step 3: Data Extraction and Storage in Azure Data Lake Storage Gen 2 (ADLS)
+Configure ADF to extract data from your GitHub repository.
+Use the defined pipeline to move the data to ADLS Gen 2.
+Organize the data in ADLS to maintain structure and accessibility.
 
-5. Advanced Analytics with Azure Synapse Analytics:
-As our journey progresses, we'll harness the capabilities of Azure Synapse Analytics (formerly SQL Data Warehouse). This robust data warehousing solution allows us to execute complex queries and perform in-depth analysis on our Olympic dataset. We'll uncover historical trends, athlete performance metrics, and more, contributing to a comprehensive understanding of the data.
+Step 4: Data Transformation using Azure Databricks
+Set up an Azure Databricks cluster.
+Ingest the data from ADLS into Databricks.
+Perform data transformations, cleansing, and enrichment using Databricks notebooks.
+Execute advanced analytics, such as aggregations and statistical analyses.
+
+Step 5: Storing Transformed Data Back to ADLS
+Save the transformed data from Databricks back into ADLS Gen 2.
+Ensure that the data is appropriately organized and labeled.
+
+Step 6: Utilizing Azure Synapse Analytics (formerly SQL Data Warehouse)
+Create an Azure Synapse Analytics instance.
+Design the schema and tables to accommodate your transformed data.
+Load the data from ADLS into Synapse Analytics for analysis.
+
+Step 7: Data Exploration and Analysis
+Develop complex SQL queries within Azure Synapse Analytics to explore insights.
+Perform historical analysis, identify patterns, and extract meaningful information.
+
 
 Key Technologies and Tools:
 
