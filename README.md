@@ -1,6 +1,6 @@
 # Tokyo-Olympic-Azure-Data-Engineering-Project
 
-![logo](https://github.com/jaisbhavana/Tokyo-Olympic-Azure-Data-Engineering-Project/blob/main/Doc1.pdf)
+![logo](https://github.com/jaisbhavana/Tokyo-Olympic-Azure-Data-Engineering-Project/blob/main/pdf2png.zip)
 
 Project Description: Olympic Data Analysis with Azure Technologies
 1. Introduction:
