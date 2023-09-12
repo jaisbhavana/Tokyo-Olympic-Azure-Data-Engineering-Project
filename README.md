@@ -50,8 +50,8 @@ To replicate this project, follow the steps outlined above and refer to the deta
 
 
 **Prerequisites <br>
-Azure Account with appropriate subscriptions.
-Azure Data Factory, Databricks, and Synapse Analytics instances set up.
+Azure Account with appropriate subscriptions. <br>
+Azure Data Factory, Databricks, and Synapse Analytics instances set up. <br>
 GitHub account for version control and data storage.**
 
  
